@@ -1,5 +1,4 @@
 # src/exception.py
-
 import sys
 from src.logger import logging
 

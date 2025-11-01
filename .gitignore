@@ -1,0 +1,74 @@
+# --- Python bytecode ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+
+# --- Project Artifacts & Data ---
+artifacts/
+models/
+saved_models/
+notebooks/
+data/
+NOTEBOOK/data/
+*.pkl
+*.joblib
+*.h5
+*.csv
+*.xlsx
+*.xls
+*.json
+*.tsv
+*.parquet
+
+# --- Logs & Caches ---
+logs/
+*.log
+cache/
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Environment & Config Files ---
+.env
+*.env
+config.yaml
+secrets.yaml
+
+# --- Build / Distribution ---
+build/
+dist/
+*.egg-info/
+*.spec
+
+# --- IDE / Editor Specific ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Testing / Coverage ---
+.coverage
+htmlcov/
+pytest_cache/
+test-results/
+
+# --- Misc ---
+# Temporary folders you might create manually
+temp/
+backup/
+old_versions/
